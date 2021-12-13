@@ -1,0 +1,376 @@
+/*Variables*/
+
+$dorado:#C4A178;
+$rosa-oscuro:#EDBBB4;
+$rosa-claro:#FEF5F0;
+$gris:#878181;
+$titulo-h2:30px;
+
+/* Inicio */
+/* --------- Menú Navegable --------- */
+
+
+nav{
+    background-color: #FEF5F0;
+}
+
+.navbar-brand img{
+    width: 250px;
+}
+
+.navbar-toggler svg{
+    color: #C4A178;
+}
+
+.nav-link{
+    text-decoration: none;
+    color: #C4A178;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.nav-link:hover{
+    color: #878181;
+}
+
+$dorado:#C4A178;
+$rosa-oscuro:#EDBBB4;
+$rosa-claro:#FEF5F0;
+$gris:#878181;
+$titulo-h2:30px;
+
+
+.portada1 img{
+    width: 90%;
+    height: 230px;
+    margin-left: 5%;
+    margin-top: 30px;
+}
+
+.categoriasContainer{
+    background-color: #FEF5F0;
+    margin-top: 30px;
+    margin-bottom: 80px;
+
+    h2{
+        font-family: 'Parisienne', cursive;
+        color: $dorado;
+        font-size: $titulo-h2;
+        padding-top: 30px;
+        text-align: center;
+    }
+
+    .categoria{
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 30px;
+        padding-top: 30px;
+        transition: all 1s;
+
+        img{
+            width: 70%;
+            height: 400px;
+        }
+
+        h3{
+            font-family: 'Open Sans', sans-serif;
+            color: #EDBBB4;
+        }
+
+    }
+
+}
+
+.categoria:hover{
+    transform: scale(1.1);
+    transition: all 1s;
+}
+
+.contenedorProductosDestacados{
+
+    background-color: #FEF5F0;
+    margin-top: 80px;
+
+
+    h2{
+        font-family: 'Parisienne', cursive;
+        color: $dorado;
+        font-size: $titulo-h2;
+        padding-top: 30px;
+        text-align: center;
+    }
+
+    .productosD{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 10px;
+
+        .caja {
+            margin-bottom: 30px;
+
+            img {
+                width: 130px;
+                height: 230px;
+            }
+
+            button {
+                width: 120px;
+                background-color: $rosa-oscuro;
+                color: white;
+                border: 3px $gris;
+                margin-top: 20px;
+            }
+        }
+
+    }
+
+}
+.portadasFinales {
+    margin-top: 60px;
+
+    .portadaFinal1{
+
+        img{
+            width: 180px;
+            height: 259px;
+            margin-left: 20px;
+        }
+
+        p{
+            text-align: left;
+            margin-left: 50px;
+            font-family: 'Open Sans', sans-serif;
+            color: $dorado;
+        }
+    }
+
+    .portadaFinal2{
+
+        img{
+            padding-top: 30px;
+            width: 180px;
+            height: 259px;
+            margin-left: 190px;
+        }
+
+        p{
+            text-align: right;
+            font-family: 'Open Sans', sans-serif;
+            color: $dorado;
+        }
+    }
+
+}
+
+.redSocial{
+
+    margin-top: 40px;
+    background-color: $rosa-oscuro;
+
+    h2{
+        padding-top: 20px;
+        font-size: $titulo-h2;
+        color: $rosa-claro;
+        font-family: 'Parisienne', cursive;
+        text-align: center;
+    }
+
+    p{
+        text-align: center;
+        font: $gris 8px;
+        opacity: 50%;
+        padding-bottom: 20px;
+    }
+
+}
+
+.igIcon{
+    font-size: 50px;
+    color: $rosa-claro;
+    margin-left: 45%;
+}
+
+.anuncioIngreso{
+    h3{
+        font-family: 'Open Sans', sans-serif;
+        font-size: 15px;
+        padding-top: 30px;
+        text-align: center;
+        color: $dorado;
+    }
+}
+
+.portada2 img{
+    width: 90%;
+    height: 230px;
+    margin-left: 5%;
+    margin-top: 10px;
+}
+
+footer{
+    background-color: $rosa-claro;
+    margin-top: 60px;
+    height: 200px;
+
+    img{
+        width: 250px;
+        margin-left: 25%;
+        padding-bottom: 30px;
+        padding-top: 20px;
+    }
+
+    .sitemap{
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        li{
+            display: inline-block;
+            position: relative;
+
+            a{
+                display: block;
+                text-decoration: none;
+                color: $gris;
+                padding-right: 12px;
+                font-size: 13px;
+            }
+        }
+    }
+}
+
+@media (min-width: 576px){
+
+    .navbar-brand img{
+        width: 200px;
+    }
+
+    .nav-link{
+        font-size: 15px;
+        margin-bottom: 15px;
+    }
+
+    footer .sitemap li a{
+        font-size: 20px;
+    }
+
+}
+
+@media (min-width: 1000px){
+    
+    .portada1 img{
+        width: 90%;
+        height: 500px;
+        margin-left: 5%;
+        margin-top: 30px;
+    }
+
+    .categoriasContainer .categoria img{
+        height: 900px;
+    }
+    
+
+    .contenedorProductosDestacados .productosD .caja img{
+        width: 250px;
+        height: 350px;
+    }
+
+    .portadasFinales .portadaFinal1 img{
+        width: 250px;
+        height: 400px;
+    }
+
+    .portadasFinales .portadaFinal2 img{
+        width: 250px;
+        height: 400px;
+    }
+
+    .contenedorCat{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+
+        .categoria img{
+            padding-top: 20px;
+            width: 500px;
+            height: 600px;
+        }
+    }
+
+    .contenedorProductosDestacados{
+        height: 700px;
+
+        .productosD .caja img{
+            width: 400px;
+            height: 500px;
+            padding-top: 40px;
+        }
+        .productosD .caja button{
+            margin-left: 140px;
+        }
+    }
+
+    .portadasFinales .portadaFinal1 img{
+        width: 400px;
+        height: 600px;
+        margin-left: 100px;
+    }
+    .portadasFinales .portadaFinal1 p{
+        margin-left: 250px;
+    }
+
+    .portadasFinales .portadaFinal2 img{
+        width: 400px;
+        height: 600px;
+        margin-left: 400px;
+    }
+
+    .portadasFinales .portadaFinal2 p{
+        text-align: center;
+    }
+
+    .redSocial{
+        margin-top: 80px;
+        height: 300px;
+        margin-bottom: 40px;
+    }
+
+    .igIcon{
+        font-size: 80px;
+        color: $rosa-claro;
+        margin-left: 48%;
+        padding-top: 40px;
+    }
+
+    .anuncioIngreso .portada2 img{
+        width: 90%;
+        height: 530px;
+        margin-left: 5%;
+        margin-top: 10px;
+    }
+
+    footer{
+        height: 300px;
+
+        img{
+            width: 350px;
+            margin-left: 40%;
+        }
+
+        .sitemap{
+            padding-top: 30px;
+            align-items: center;
+            justify-content: center;
+
+            li a:hover{
+                color: $dorado;
+            }
+        }
+    }
+
+}
+

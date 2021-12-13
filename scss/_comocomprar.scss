@@ -1,0 +1,36 @@
+$dorado:#C4A178;
+$rosa-oscuro:#EDBBB4;
+$rosa-claro:#FEF5F0;
+$gris:#878181;
+$titulo-h2:30px;
+$fuente-titulo:'Parisienne', cursive;
+$fuente-parrafo:'Open Sans', sans-serif;
+
+/*Carousel-Mobile*/
+
+@media (min-width: 1000px){
+
+    .carousel-mobile{
+        display: none;
+    }
+
+}
+
+@media (max-width: 999px){
+
+    .carousel-compu{
+        display: none;
+    }
+
+}
+
+/*Frase*/
+
+.frase1{
+    padding: 20px;
+    margin-top: 30px;
+    font-family: $fuente-titulo;
+    color: $dorado;
+    font-size: 25px;
+}
+

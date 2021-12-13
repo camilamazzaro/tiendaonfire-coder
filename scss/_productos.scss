@@ -1,0 +1,108 @@
+$dorado:#C4A178;
+$rosa-oscuro:#EDBBB4;
+$rosa-claro:#FEF5F0;
+$gris:#878181;
+$titulo-h2:30px;
+$fuente-titulo:'Parisienne', cursive;
+$fuente-parrafo:'Open Sans', sans-serif;
+
+/*----------ROPA INTERIOR-----------*/
+
+.breadcrumb{
+    padding-top: 20px;
+    padding-left: 10px;
+}
+
+.carousel{
+    width: 90%;
+}
+
+.tituloRopaInt{
+    font-size: $titulo-h2;
+    color: $dorado;
+    font-family: $fuente-titulo;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.contenedorRopaInterior{
+    background-color: $rosa-claro;
+
+    .productoInterior{
+        padding-top: 40px;
+
+        img{
+            width: 80%;
+            height: auto;
+            margin-left:10%;
+        }
+
+        p{
+            color: $gris;
+            font-family: $fuente-parrafo;
+            font-size: 16px;
+            text-align: center;
+            padding-top: 10px;
+        }
+
+        strong{
+            margin-left: 45%;
+            color: $gris;
+        }
+    }
+}
+
+/*Tablet*/
+
+@media (min-width: 576px){
+
+    .navbar-brand img{
+        width: 200px;
+    }
+
+    .nav-link{
+        font-size: 15px;
+        margin-bottom: 15px;
+    }
+
+    footer .sitemap li a{
+        font-size: 20px;
+    }
+
+}
+
+/*Computadora*/
+
+@media (min-width: 1000px){
+    
+    footer{
+        height: 300px;
+
+        img{
+            width: 350px;
+            margin-left: 40%;
+        }
+
+        .sitemap{
+            padding-top: 30px;
+            align-items: center;
+            justify-content: center;
+
+            li a:hover{
+                color: $dorado;
+            }
+        }
+    }
+
+    .contenedorRopaInterior{
+
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+
+        .productoInterior img{
+            height:500px;
+        }
+
+    }
+
+}

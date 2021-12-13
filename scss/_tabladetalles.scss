@@ -1,0 +1,58 @@
+/*Tabla de Talles*/
+
+.tablaDeTalles{
+    
+    h2{
+        font-size: $titulo-h2;
+        font-family: $fuente-titulo;
+        color: $dorado;
+        text-align: center;
+    }
+
+    p{
+        font-family: $fuente-parrafo;
+        color: $gris;
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .table{
+
+        margin-bottom: 40px;
+    
+        thead tr th{
+            color: $rosa-oscuro;
+        }
+
+        tbody tr th{
+            color: $gris;
+        }
+
+        td{
+            color: $gris;
+        }
+    }
+}
+
+/*Consejos / Tabla de Talles*/
+
+.consejos{
+    
+
+    .consejos__titulo--font{
+        font-family: $fuente-titulo;
+        color: $dorado;
+    }
+
+    .consejos__parrafo{
+        background-color: $rosa-claro;
+        padding: 10px;
+
+        .subtitulo2{
+            font-family: $fuente-parrafo;
+            font-size: 15px;
+            color: $dorado;
+        }
+    }
+}
+

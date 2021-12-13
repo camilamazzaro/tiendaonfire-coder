@@ -1,0 +1,22 @@
+/*Carousel-Mobile*/
+@media (min-width: 1000px) {
+  .carousel-mobile {
+    display: none;
+  }
+}
+
+@media (max-width: 999px) {
+  .carousel-compu {
+    display: none;
+  }
+}
+
+/*Frase*/
+.frase1 {
+  padding: 20px;
+  margin-top: 30px;
+  font-family: "Parisienne", cursive;
+  color: #C4A178;
+  font-size: 25px;
+}
+/*# sourceMappingURL=comocomprar.css.map */

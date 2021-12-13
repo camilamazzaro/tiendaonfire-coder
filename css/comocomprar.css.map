@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAQA,mBAAmB;AAEnB,MAAM,EAAE,SAAS,EAAE,MAAM;EAErB,AAAA,gBAAgB,CAAA;IACZ,OAAO,EAAE,IAAI;GAChB;;;AAIL,MAAM,EAAE,SAAS,EAAE,KAAK;EAEpB,AAAA,eAAe,CAAA;IACX,OAAO,EAAE,IAAI;GAChB;;;AAIL,SAAS;AAET,AAAA,OAAO,CAAA;EACH,OAAO,EAAE,IAAI;EACb,UAAU,EAAE,IAAI;EAChB,WAAW,EA1BA,YAAY,EAAE,OAAO;EA2BhC,KAAK,EAhCD,OAAO;EAiCX,SAAS,EAAE,IAAI;CAClB",
+    "sources": [
+        "../scss/comocomprar.scss"
+    ],
+    "names": [],
+    "file": "comocomprar.css"
+}

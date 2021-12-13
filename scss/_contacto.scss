@@ -1,0 +1,23 @@
+/*Formulario de Registro*/
+
+.btn{
+    background-color: $rosa-oscuro;
+    color: white;
+}
+
+/*Caja de Comentarios*/
+
+.comentarios{
+
+    padding-top: 50px;
+
+    h2{
+        font-family: $fuente-parrafo;
+        color: $dorado;
+    }
+
+    p{
+        font-family: $fuente-parrafo;
+        color: $gris;
+    }
+}
