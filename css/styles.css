@@ -525,4 +525,12 @@ footer .sitemap li a {
   color: #C4A178;
   font-size: 25px;
 }
+
+.fraseFinal {
+  color: #C4A178;
+  font-family: "Parisienne", cursive;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 10px;
+}
 /*# sourceMappingURL=styles.css.map */
